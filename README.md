@@ -1,5 +1,16 @@
-# 1pux-to-.csv
-Convert 1Password .1pux exports to CSV (Google/Chrome) or Bitwarden JSON. Offline, no dependencies.
+# 1Password 1PUX to CSV Converter
+
+Convert 1Password `.1pux` export files to `.csv` locally.
+
+## Usage
+
+```bash
+python 1pux_full_export.py yourenamedfile.1pux
+```
+
+## Keywords
+
+1Password 1PUX to CSV, 1pux converter, 1Password export to CSV, password manager CSV export.
 Google Password Manager only stores logins, so it can’t take notes, cards, or identities. I wrote a second script, 1pux_full_export.py, that exports everything:
 
 python 1pux_full_export.py yourenamedfile.1pux
